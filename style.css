@@ -39,21 +39,25 @@ body {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .Header {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+}
 
-@media screen and (max-width: 1080px)
+
+@media screen and (max-width: 1080px){
 .Header {
     background-color: #fff;
     z-index: 10;
 }
+}
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .Header--common {
     position: fixed !important;
+}
 }
 
 header {
@@ -68,10 +72,11 @@ HeaderContainer {
     position: relative;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .HeaderContainer {
     max-width: 100%;
     margin: 0 20px;
+}
 }
 
 body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
@@ -93,9 +98,10 @@ a {
     width: auto;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .HeaderLogo__image--pc {
     display: none;
+}
 }
 
 img {
@@ -114,9 +120,18 @@ ody, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4,
     width: auto;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .HeaderLogo__image--sp {
     display: block;
+}
+}
+
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px;
+    max-width: 100%;
+    position: relative;
 }
 
 .HeaderContainer>*:last-child {
@@ -137,12 +152,13 @@ li {
     display: none;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavHamburger {
     cursor: pointer;
 }
+}
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavHamburger {
     cursor: pointer;
     display: block;
@@ -151,13 +167,15 @@ li {
     height: 21px;
     z-index: 100;
 }
+}
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavHamburger__line:first-child {
     top: 0;
 }
+}
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavHamburger__line {
     position: absolute;
     top: 50%;
@@ -169,12 +187,15 @@ li {
     border-radius: 10px;
     transition: top .2s,transform .2s,opacity .3s;
 }
+}
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavHamburger__line:last-child {
     top: 100%;
 }
-@media screen and (max-width: 1080px)
+}
+
+@media screen and (max-width: 1080px){
 .HeaderNavHamburger__line {
     position: absolute;
 
@@ -186,8 +207,10 @@ li {
     border-radius: 10px;
     transition: top .2s,transform .2s,opacity .3s;
 }
+}
 
-@media screen and (max-width: 1080px)
+
+@media screen and (max-width: 1080px){
 .HeaderNavHamburger__line {
     position: absolute;
     top: 50%;
@@ -198,6 +221,7 @@ li {
     transform: translate(0,-50%);
     border-radius: 10px;
     transition: top .2s,transform .2s,opacity .3s;
+}
 }
 
 body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
@@ -212,13 +236,14 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     justify-content: space-between;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .HeaderNavList {
     top: 52px;
 }
+}
 
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavList {
     overflow-y: scroll;
     position: fixed;
@@ -230,8 +255,8 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     transition: transform .5s;
     z-index: 99;
     background-color: rgba(0,0,0,.8);
-    -webkit-overflow-scrolling:;
     height: 100%;
+}
 }
 
 ul, ol {
@@ -247,29 +272,32 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     margin-right: 45px;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavListItem {
     margin-right: 0;
+}
 }
 
 .HeaderNavListItem__link {
     display: block;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavListItem__link {
     padding: 20px 0;
+}
 }
 
 .HeaderNavListItem__link>span:first-child {
     font-family: 'Lato',sans-serif;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavListItem__link>span:first-child {
     font-size: 16px;
     letter-spacing: 5px;
     color: #fff;
+}
 }
 
 .HeaderNavListItem__link>span {
@@ -282,29 +310,32 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     font-size: 10px;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavListItem__link>span:last-child {
     font-size: 12px;
     margin-top: 10px;
     color: #f79214;
     letter-spacing: 2px;
 }
+}
 
 HeaderNavListItem:last-of-type {
     margin-right: 0;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavListItem:last-of-type {
     margin-top: 20px;
 }
+}
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .HeaderNavListItem__button {
     font-size: 16px;
     margin: 0 auto;
     height: 60px;
     width: 250px;
+}
 }
 
 .HeaderNavListItem__button {
@@ -341,9 +372,10 @@ main {
 }
 
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 main {
     padding-top: 52px;
+}
 }
 
 .FirstView {
@@ -354,11 +386,12 @@ main {
     padding-bottom: 28px;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .FirstView {
     background-image: none;
     padding-top: 0;
     padding-bottom: 35px;
+}
 }
 
 
@@ -370,9 +403,10 @@ main {
     display: none;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .FirstView__main-image--sp {
     display: block;
+}
 }
 
 .FirstView__main-image {
@@ -393,16 +427,18 @@ img {
     position: relative;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .FirstView__container {
     margin-top: -45vw;
 }
+}
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .FirstView__container {
     max-width: none;
     padding-left: 20px;
     padding-right: 20px;
+}
 }
 
 .FirstView__container {
