@@ -388,7 +388,9 @@ main {
 .FirstViewContent__title {
     color: #333;
     font-family: 'Lato',sans-serif;
+    font-size: 38px;
     font-weight: 700;
+    line-height: 54px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -467,6 +469,10 @@ img {
     }
 }
 
+.FirstViewContent__images {
+    margin-bottom: 25px;
+}
+
 @media screen and (max-width: 767px){
     .FirstViewContent__images {
         display: flex;
@@ -502,6 +508,11 @@ img {
     .FirstViewContent__images img {
         width: 27.5%;
     }
+}
+
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+    margin: 0;
+    padding: 0;
 }
 
 .FirstViewContent__button {
