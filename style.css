@@ -81,6 +81,18 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     align-self: center;
 }
 
+@media screen and (min-width: 768px){
+    .HeaderLogo {
+        transition: opacity .2s;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .HeaderLogo:hover {
+        opacity: .8;
+    }
+}
+
 a {
     color: #333;
     text-decoration: none;
@@ -265,6 +277,22 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     .HeaderNavListItem {
         margin-right: 0;
     }
+}
+
+@media screen and (min-width: 768px){
+    .HeaderNavListItem {
+        transition: opacity .2s;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .HeaderNavListItem:hover {
+        opacity: .8;
+    }
+}
+
+.HeaderNavListItem {
+    margin-right: 45px;
 }
 
 .HeaderNavListItem__link {
@@ -460,6 +488,18 @@ img {
 .FirstViewContent {
     margin-bottom: 70px;
     width: fit-content;
+}
+
+@media screen and (min-width: 768px){
+    .FirstViewContent__button:hover {
+        opacity: .8;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .FirstViewContent__button {
+        transition: opacity .2s;
+    }
 }
 
 @media screen and (max-width: 767px){
